@@ -29,6 +29,7 @@ check_env() {
 
 install() {
   wget https://github.com/AttifyOS/baudrate/releases/download/v1.0/baudrate -O $APM_TMP_DIR/baudrate
+  mv $APM_TMP_DIR/baudrate $APM_PKG_INSTALL_DIR/baudrate
   chmod +x $APM_PKG_INSTALL_DIR/baudrate
   ln -s $APM_PKG_INSTALL_DIR/baudrate $APM_PKG_BIN_DIR/baudrate
 }
