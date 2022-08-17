@@ -1,0 +1,8 @@
+[package_detail]
+name = "baudrate"
+description = "Baudrate detection tool"
+version = "1.0"
+source_url = "https://github.com/devttys0/baudrate"
+license = "MIT"
+install_script = "setup.sh"
+install_script_type = "shell"
